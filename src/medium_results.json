@@ -1,0 +1,3126 @@
+{"graphs": [
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_12_sparse",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "w": 2
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "w": 1
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "w": 2
+      },
+      {
+        "u": 8,
+        "v": 9,
+        "w": 3
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "w": 1
+      }
+    ],
+    "source": 0,
+    "results": {
+      "comp_of": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8,
+        11,
+        10
+      ],
+      "summary": {
+        "graph_type": "DAG",
+        "density": 0.045454545454545456,
+        "is_dag": true,
+        "m": 6,
+        "n": 12
+      },
+      "condensation_nodes": 12,
+      "longest_on_vertices": {
+        "path_vertices": [
+          0,
+          1
+        ],
+        "dist": [
+          0,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "max_distance": 2
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [0],
+        "dist": [
+          0,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "longest_on_condensation": {
+        "source_component": 1,
+        "path_components": [
+          1,
+          0
+        ],
+        "path_vertices": [
+          0,
+          1
+        ],
+        "dist": [
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "max_distance": 2
+      },
+      "topo_order_components": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "sccs": [
+        [1],
+        [0],
+        [3],
+        [2],
+        [5],
+        [4],
+        [7],
+        [6],
+        [9],
+        [8],
+        [11],
+        [10]
+      ],
+      "scc_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 15900,
+          "dfs_calls": 12,
+          "edges_scanned": 6
+        },
+        "toposort": {
+          "nodes": 12,
+          "pops": 12,
+          "time_ns": 8600,
+          "edges": 6
+        },
+        "dag_shortest": {
+          "time_ns": 2900,
+          "relaxations": 1,
+          "updated": 1
+        },
+        "dag_longest": {
+          "time_ns": 2100,
+          "relaxations": 1,
+          "updated": 1
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 2,
+          "from": 1,
+          "to": 0
+        },
+        {
+          "w": 2,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 1,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 7,
+          "to": 6
+        },
+        {
+          "w": 3,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 1,
+          "from": 11,
+          "to": 10
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 1,
+        "path_components": [1],
+        "path_vertices": [0],
+        "dist": [
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "n": 12
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_12_medium",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 1
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 0,
+        "w": 1
+      },
+      {
+        "u": 3,
+        "v": 4,
+        "w": 2
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "w": 2
+      },
+      {
+        "u": 5,
+        "v": 3,
+        "w": 2
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "w": 1
+      },
+      {
+        "u": 7,
+        "v": 8,
+        "w": 2
+      },
+      {
+        "u": 8,
+        "v": 9,
+        "w": 3
+      },
+      {
+        "u": 9,
+        "v": 10,
+        "w": 1
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "w": 2
+      }
+    ],
+    "source": 6,
+    "results": {
+      "comp_of": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "summary": {
+        "graph_type": "Cyclic",
+        "density": 0.08333333333333333,
+        "is_dag": false,
+        "m": 11,
+        "n": 12
+      },
+      "condensation_nodes": 8,
+      "longest_on_vertices": {
+        "path_vertices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "dist": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          1,
+          3,
+          6,
+          7,
+          9
+        ],
+        "max_distance": 9
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [6],
+        "dist": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          1,
+          3,
+          6,
+          7,
+          9
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "longest_on_condensation": {
+        "source_component": 7,
+        "path_components": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "path_vertices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "dist": [
+          null,
+          null,
+          9,
+          7,
+          6,
+          3,
+          1,
+          0
+        ],
+        "max_distance": 9
+      },
+      "topo_order_components": [
+        0,
+        1,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "sccs": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [11],
+        [10],
+        [9],
+        [8],
+        [7],
+        [6]
+      ],
+      "scc_sizes": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 11500,
+          "dfs_calls": 12,
+          "edges_scanned": 11
+        },
+        "toposort": {
+          "nodes": 8,
+          "pops": 8,
+          "time_ns": 5300,
+          "edges": 5
+        },
+        "dag_shortest": {
+          "time_ns": 2900,
+          "relaxations": 5,
+          "updated": 5
+        },
+        "dag_longest": {
+          "time_ns": 3500,
+          "relaxations": 5,
+          "updated": 5
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 2,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 1,
+          "from": 4,
+          "to": 3
+        },
+        {
+          "w": 3,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 6,
+          "to": 5
+        },
+        {
+          "w": 1,
+          "from": 7,
+          "to": 6
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 7,
+        "path_components": [7],
+        "path_vertices": [6],
+        "dist": [
+          null,
+          null,
+          9,
+          7,
+          6,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    "n": 12
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_12_dense",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 1
+      },
+      {
+        "u": 0,
+        "v": 2,
+        "w": 2
+      },
+      {
+        "u": 0,
+        "v": 3,
+        "w": 1
+      },
+      {
+        "u": 1,
+        "v": 4,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 5,
+        "w": 3
+      },
+      {
+        "u": 3,
+        "v": 6,
+        "w": 1
+      },
+      {
+        "u": 4,
+        "v": 7,
+        "w": 2
+      },
+      {
+        "u": 5,
+        "v": 8,
+        "w": 2
+      },
+      {
+        "u": 6,
+        "v": 9,
+        "w": 1
+      },
+      {
+        "u": 7,
+        "v": 10,
+        "w": 3
+      },
+      {
+        "u": 8,
+        "v": 11,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 6,
+        "w": 1
+      },
+      {
+        "u": 5,
+        "v": 9,
+        "w": 2
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "w": 1
+      }
+    ],
+    "source": 0,
+    "results": {
+      "comp_of": [
+        11,
+        6,
+        10,
+        5,
+        2,
+        9,
+        4,
+        1,
+        8,
+        3,
+        0,
+        7
+      ],
+      "summary": {
+        "graph_type": "DAG",
+        "density": 0.10606060606060606,
+        "is_dag": true,
+        "m": 14,
+        "n": 12
+      },
+      "condensation_nodes": 12,
+      "longest_on_vertices": {
+        "path_vertices": [
+          0,
+          2,
+          5,
+          8,
+          11
+        ],
+        "dist": [
+          0,
+          1,
+          2,
+          2,
+          3,
+          5,
+          3,
+          5,
+          7,
+          7,
+          8,
+          9
+        ],
+        "max_distance": 9
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [0],
+        "dist": [
+          0,
+          1,
+          2,
+          1,
+          3,
+          5,
+          2,
+          5,
+          7,
+          3,
+          8,
+          9
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5,
+        7,
+        6,
+        8,
+        10,
+        9,
+        11
+      ],
+      "longest_on_condensation": {
+        "source_component": 11,
+        "path_components": [
+          11,
+          10,
+          9,
+          8,
+          7
+        ],
+        "path_vertices": [
+          0,
+          2,
+          5,
+          8,
+          11
+        ],
+        "dist": [
+          8,
+          5,
+          3,
+          7,
+          3,
+          2,
+          1,
+          9,
+          7,
+          5,
+          2,
+          0
+        ],
+        "max_distance": 9
+      },
+      "topo_order_components": [
+        11,
+        6,
+        10,
+        2,
+        5,
+        9,
+        1,
+        4,
+        8,
+        0,
+        3,
+        7
+      ],
+      "sccs": [
+        [10],
+        [7],
+        [4],
+        [9],
+        [6],
+        [3],
+        [1],
+        [11],
+        [8],
+        [5],
+        [2],
+        [0]
+      ],
+      "scc_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 12500,
+          "dfs_calls": 12,
+          "edges_scanned": 14
+        },
+        "toposort": {
+          "nodes": 12,
+          "pops": 12,
+          "time_ns": 8500,
+          "edges": 14
+        },
+        "dag_shortest": {
+          "time_ns": 4500,
+          "relaxations": 14,
+          "updated": 13
+        },
+        "dag_longest": {
+          "time_ns": 4100,
+          "relaxations": 14,
+          "updated": 12
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 3,
+          "from": 1,
+          "to": 0
+        },
+        {
+          "w": 2,
+          "from": 2,
+          "to": 1
+        },
+        {
+          "w": 1,
+          "from": 4,
+          "to": 3
+        },
+        {
+          "w": 1,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 6,
+          "to": 2
+        },
+        {
+          "w": 1,
+          "from": 6,
+          "to": 5
+        },
+        {
+          "w": 2,
+          "from": 8,
+          "to": 7
+        },
+        {
+          "w": 2,
+          "from": 9,
+          "to": 3
+        },
+        {
+          "w": 2,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 1,
+          "from": 10,
+          "to": 4
+        },
+        {
+          "w": 3,
+          "from": 10,
+          "to": 9
+        },
+        {
+          "w": 1,
+          "from": 11,
+          "to": 5
+        },
+        {
+          "w": 1,
+          "from": 11,
+          "to": 6
+        },
+        {
+          "w": 2,
+          "from": 11,
+          "to": 10
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 11,
+        "path_components": [11],
+        "path_vertices": [0],
+        "dist": [
+          8,
+          5,
+          3,
+          3,
+          2,
+          1,
+          1,
+          9,
+          7,
+          5,
+          2,
+          0
+        ]
+      }
+    },
+    "n": 12
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_15_sparse",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "w": 1
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "w": 2
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "w": 2
+      },
+      {
+        "u": 8,
+        "v": 9,
+        "w": 1
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "w": 3
+      },
+      {
+        "u": 12,
+        "v": 13,
+        "w": 2
+      }
+    ],
+    "source": 0,
+    "results": {
+      "comp_of": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8,
+        11,
+        10,
+        13,
+        12,
+        14
+      ],
+      "summary": {
+        "graph_type": "DAG",
+        "density": 0.03333333333333333,
+        "is_dag": true,
+        "m": 7,
+        "n": 15
+      },
+      "condensation_nodes": 15,
+      "longest_on_vertices": {
+        "path_vertices": [
+          0,
+          1
+        ],
+        "dist": [
+          0,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "max_distance": 2
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [0],
+        "dist": [
+          0,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "longest_on_condensation": {
+        "source_component": 1,
+        "path_components": [
+          1,
+          0
+        ],
+        "path_vertices": [
+          0,
+          1
+        ],
+        "dist": [
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "max_distance": 2
+      },
+      "topo_order_components": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        14,
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "sccs": [
+        [1],
+        [0],
+        [3],
+        [2],
+        [5],
+        [4],
+        [7],
+        [6],
+        [9],
+        [8],
+        [11],
+        [10],
+        [13],
+        [12],
+        [14]
+      ],
+      "scc_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 11400,
+          "dfs_calls": 15,
+          "edges_scanned": 7
+        },
+        "toposort": {
+          "nodes": 15,
+          "pops": 15,
+          "time_ns": 8000,
+          "edges": 7
+        },
+        "dag_shortest": {
+          "time_ns": 15400,
+          "relaxations": 1,
+          "updated": 1
+        },
+        "dag_longest": {
+          "time_ns": 7300,
+          "relaxations": 1,
+          "updated": 1
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 2,
+          "from": 1,
+          "to": 0
+        },
+        {
+          "w": 1,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 2,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 7,
+          "to": 6
+        },
+        {
+          "w": 1,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 3,
+          "from": 11,
+          "to": 10
+        },
+        {
+          "w": 2,
+          "from": 13,
+          "to": 12
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 1,
+        "path_components": [1],
+        "path_vertices": [0],
+        "dist": [
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "n": 15
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_15_medium",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 1
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "w": 1
+      },
+      {
+        "u": 2,
+        "v": 0,
+        "w": 1
+      },
+      {
+        "u": 3,
+        "v": 4,
+        "w": 2
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "w": 2
+      },
+      {
+        "u": 5,
+        "v": 3,
+        "w": 2
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "w": 1
+      },
+      {
+        "u": 7,
+        "v": 8,
+        "w": 2
+      },
+      {
+        "u": 8,
+        "v": 9,
+        "w": 1
+      },
+      {
+        "u": 9,
+        "v": 10,
+        "w": 2
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "w": 2
+      },
+      {
+        "u": 11,
+        "v": 12,
+        "w": 3
+      },
+      {
+        "u": 12,
+        "v": 13,
+        "w": 1
+      },
+      {
+        "u": 13,
+        "v": 14,
+        "w": 2
+      }
+    ],
+    "source": 6,
+    "results": {
+      "comp_of": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "summary": {
+        "graph_type": "Cyclic",
+        "density": 0.06666666666666667,
+        "is_dag": false,
+        "m": 14,
+        "n": 15
+      },
+      "condensation_nodes": 11,
+      "longest_on_vertices": {
+        "path_vertices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "dist": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          1,
+          3,
+          4,
+          6,
+          8,
+          11,
+          12,
+          14
+        ],
+        "max_distance": 14
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [6],
+        "dist": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          1,
+          3,
+          4,
+          6,
+          8,
+          11,
+          12,
+          14
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "longest_on_condensation": {
+        "source_component": 10,
+        "path_components": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "path_vertices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "dist": [
+          null,
+          null,
+          14,
+          12,
+          11,
+          8,
+          6,
+          4,
+          3,
+          1,
+          0
+        ],
+        "max_distance": 14
+      },
+      "topo_order_components": [
+        0,
+        1,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "sccs": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [14],
+        [13],
+        [12],
+        [11],
+        [10],
+        [9],
+        [8],
+        [7],
+        [6]
+      ],
+      "scc_sizes": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 22300,
+          "dfs_calls": 15,
+          "edges_scanned": 14
+        },
+        "toposort": {
+          "nodes": 11,
+          "pops": 11,
+          "time_ns": 9000,
+          "edges": 8
+        },
+        "dag_shortest": {
+          "time_ns": 3900,
+          "relaxations": 8,
+          "updated": 8
+        },
+        "dag_longest": {
+          "time_ns": 3000,
+          "relaxations": 8,
+          "updated": 8
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 2,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 1,
+          "from": 4,
+          "to": 3
+        },
+        {
+          "w": 3,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 6,
+          "to": 5
+        },
+        {
+          "w": 2,
+          "from": 7,
+          "to": 6
+        },
+        {
+          "w": 1,
+          "from": 8,
+          "to": 7
+        },
+        {
+          "w": 2,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 1,
+          "from": 10,
+          "to": 9
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 10,
+        "path_components": [10],
+        "path_vertices": [6],
+        "dist": [
+          null,
+          null,
+          14,
+          12,
+          11,
+          8,
+          6,
+          4,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    "n": 15
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_15_dense",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 1
+      },
+      {
+        "u": 0,
+        "v": 2,
+        "w": 2
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 4,
+        "w": 1
+      },
+      {
+        "u": 3,
+        "v": 5,
+        "w": 2
+      },
+      {
+        "u": 4,
+        "v": 6,
+        "w": 3
+      },
+      {
+        "u": 5,
+        "v": 7,
+        "w": 1
+      },
+      {
+        "u": 6,
+        "v": 8,
+        "w": 2
+      },
+      {
+        "u": 7,
+        "v": 9,
+        "w": 3
+      },
+      {
+        "u": 8,
+        "v": 10,
+        "w": 1
+      },
+      {
+        "u": 9,
+        "v": 11,
+        "w": 2
+      },
+      {
+        "u": 10,
+        "v": 12,
+        "w": 2
+      },
+      {
+        "u": 11,
+        "v": 13,
+        "w": 3
+      },
+      {
+        "u": 12,
+        "v": 14,
+        "w": 1
+      },
+      {
+        "u": 2,
+        "v": 6,
+        "w": 2
+      }
+    ],
+    "source": 0,
+    "results": {
+      "comp_of": [
+        14,
+        6,
+        13,
+        5,
+        12,
+        4,
+        11,
+        3,
+        10,
+        2,
+        9,
+        1,
+        8,
+        0,
+        7
+      ],
+      "summary": {
+        "graph_type": "DAG",
+        "density": 0.07142857142857142,
+        "is_dag": true,
+        "m": 15,
+        "n": 15
+      },
+      "condensation_nodes": 15,
+      "longest_on_vertices": {
+        "path_vertices": [
+          0,
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "dist": [
+          0,
+          1,
+          2,
+          3,
+          3,
+          5,
+          6,
+          6,
+          8,
+          9,
+          9,
+          11,
+          11,
+          14,
+          12
+        ],
+        "max_distance": 14
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [0],
+        "dist": [
+          0,
+          1,
+          2,
+          3,
+          3,
+          5,
+          4,
+          6,
+          6,
+          9,
+          7,
+          11,
+          9,
+          14,
+          10
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "longest_on_condensation": {
+        "source_component": 14,
+        "path_components": [
+          14,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "path_vertices": [
+          0,
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "dist": [
+          14,
+          11,
+          9,
+          6,
+          5,
+          3,
+          1,
+          12,
+          11,
+          9,
+          8,
+          6,
+          3,
+          2,
+          0
+        ],
+        "max_distance": 14
+      },
+      "topo_order_components": [
+        14,
+        6,
+        13,
+        5,
+        12,
+        4,
+        11,
+        3,
+        10,
+        2,
+        9,
+        1,
+        8,
+        0,
+        7
+      ],
+      "sccs": [
+        [13],
+        [11],
+        [9],
+        [7],
+        [5],
+        [3],
+        [1],
+        [14],
+        [12],
+        [10],
+        [8],
+        [6],
+        [4],
+        [2],
+        [0]
+      ],
+      "scc_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 14700,
+          "dfs_calls": 15,
+          "edges_scanned": 15
+        },
+        "toposort": {
+          "nodes": 15,
+          "pops": 15,
+          "time_ns": 9700,
+          "edges": 15
+        },
+        "dag_shortest": {
+          "time_ns": 4900,
+          "relaxations": 15,
+          "updated": 14
+        },
+        "dag_longest": {
+          "time_ns": 4600,
+          "relaxations": 15,
+          "updated": 15
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 3,
+          "from": 1,
+          "to": 0
+        },
+        {
+          "w": 2,
+          "from": 2,
+          "to": 1
+        },
+        {
+          "w": 3,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 1,
+          "from": 4,
+          "to": 3
+        },
+        {
+          "w": 2,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 6,
+          "to": 5
+        },
+        {
+          "w": 1,
+          "from": 8,
+          "to": 7
+        },
+        {
+          "w": 2,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 1,
+          "from": 10,
+          "to": 9
+        },
+        {
+          "w": 2,
+          "from": 11,
+          "to": 10
+        },
+        {
+          "w": 3,
+          "from": 12,
+          "to": 11
+        },
+        {
+          "w": 2,
+          "from": 13,
+          "to": 11
+        },
+        {
+          "w": 1,
+          "from": 13,
+          "to": 12
+        },
+        {
+          "w": 1,
+          "from": 14,
+          "to": 6
+        },
+        {
+          "w": 2,
+          "from": 14,
+          "to": 13
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 14,
+        "path_components": [14],
+        "path_vertices": [0],
+        "dist": [
+          14,
+          11,
+          9,
+          6,
+          5,
+          3,
+          1,
+          10,
+          9,
+          7,
+          6,
+          4,
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    "n": 15
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_18_sparse",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "w": 3
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "w": 1
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "w": 2
+      },
+      {
+        "u": 8,
+        "v": 9,
+        "w": 2
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "w": 1
+      },
+      {
+        "u": 12,
+        "v": 13,
+        "w": 2
+      },
+      {
+        "u": 14,
+        "v": 15,
+        "w": 3
+      },
+      {
+        "u": 16,
+        "v": 17,
+        "w": 1
+      }
+    ],
+    "source": 0,
+    "results": {
+      "comp_of": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8,
+        11,
+        10,
+        13,
+        12,
+        15,
+        14,
+        17,
+        16
+      ],
+      "summary": {
+        "graph_type": "DAG",
+        "density": 0.029411764705882353,
+        "is_dag": true,
+        "m": 9,
+        "n": 18
+      },
+      "condensation_nodes": 18,
+      "longest_on_vertices": {
+        "path_vertices": [
+          0,
+          1
+        ],
+        "dist": [
+          0,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "max_distance": 2
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [0],
+        "dist": [
+          0,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17
+      ],
+      "longest_on_condensation": {
+        "source_component": 1,
+        "path_components": [
+          1,
+          0
+        ],
+        "path_vertices": [
+          0,
+          1
+        ],
+        "dist": [
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "max_distance": 2
+      },
+      "topo_order_components": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "sccs": [
+        [1],
+        [0],
+        [3],
+        [2],
+        [5],
+        [4],
+        [7],
+        [6],
+        [9],
+        [8],
+        [11],
+        [10],
+        [13],
+        [12],
+        [15],
+        [14],
+        [17],
+        [16]
+      ],
+      "scc_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 22100,
+          "dfs_calls": 18,
+          "edges_scanned": 9
+        },
+        "toposort": {
+          "nodes": 18,
+          "pops": 18,
+          "time_ns": 23700,
+          "edges": 9
+        },
+        "dag_shortest": {
+          "time_ns": 3300,
+          "relaxations": 1,
+          "updated": 1
+        },
+        "dag_longest": {
+          "time_ns": 2600,
+          "relaxations": 1,
+          "updated": 1
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 2,
+          "from": 1,
+          "to": 0
+        },
+        {
+          "w": 3,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 1,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 7,
+          "to": 6
+        },
+        {
+          "w": 2,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 1,
+          "from": 11,
+          "to": 10
+        },
+        {
+          "w": 2,
+          "from": 13,
+          "to": 12
+        },
+        {
+          "w": 3,
+          "from": 15,
+          "to": 14
+        },
+        {
+          "w": 1,
+          "from": 17,
+          "to": 16
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 1,
+        "path_components": [1],
+        "path_vertices": [0],
+        "dist": [
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "n": 18
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_18_medium",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 2
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 0,
+        "w": 1
+      },
+      {
+        "u": 3,
+        "v": 4,
+        "w": 1
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "w": 2
+      },
+      {
+        "u": 5,
+        "v": 3,
+        "w": 1
+      },
+      {
+        "u": 6,
+        "v": 7,
+        "w": 2
+      },
+      {
+        "u": 7,
+        "v": 8,
+        "w": 2
+      },
+      {
+        "u": 8,
+        "v": 9,
+        "w": 3
+      },
+      {
+        "u": 9,
+        "v": 10,
+        "w": 1
+      },
+      {
+        "u": 10,
+        "v": 11,
+        "w": 2
+      },
+      {
+        "u": 11,
+        "v": 12,
+        "w": 3
+      },
+      {
+        "u": 12,
+        "v": 13,
+        "w": 1
+      },
+      {
+        "u": 13,
+        "v": 14,
+        "w": 2
+      },
+      {
+        "u": 14,
+        "v": 15,
+        "w": 1
+      },
+      {
+        "u": 15,
+        "v": 16,
+        "w": 2
+      },
+      {
+        "u": 16,
+        "v": 17,
+        "w": 3
+      }
+    ],
+    "source": 6,
+    "results": {
+      "comp_of": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "summary": {
+        "graph_type": "Cyclic",
+        "density": 0.05555555555555555,
+        "is_dag": false,
+        "m": 17,
+        "n": 18
+      },
+      "condensation_nodes": 14,
+      "longest_on_vertices": {
+        "path_vertices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "dist": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          2,
+          4,
+          7,
+          8,
+          10,
+          13,
+          14,
+          16,
+          17,
+          19,
+          22
+        ],
+        "max_distance": 22
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [6],
+        "dist": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          2,
+          4,
+          7,
+          8,
+          10,
+          13,
+          14,
+          16,
+          17,
+          19,
+          22
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "longest_on_condensation": {
+        "source_component": 13,
+        "path_components": [
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "path_vertices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "dist": [
+          null,
+          null,
+          22,
+          19,
+          17,
+          16,
+          14,
+          13,
+          10,
+          8,
+          7,
+          4,
+          2,
+          0
+        ],
+        "max_distance": 22
+      },
+      "topo_order_components": [
+        0,
+        1,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "sccs": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [17],
+        [16],
+        [15],
+        [14],
+        [13],
+        [12],
+        [11],
+        [10],
+        [9],
+        [8],
+        [7],
+        [6]
+      ],
+      "scc_sizes": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 25800,
+          "dfs_calls": 18,
+          "edges_scanned": 17
+        },
+        "toposort": {
+          "nodes": 14,
+          "pops": 14,
+          "time_ns": 9100,
+          "edges": 11
+        },
+        "dag_shortest": {
+          "time_ns": 4500,
+          "relaxations": 11,
+          "updated": 11
+        },
+        "dag_longest": {
+          "time_ns": 3600,
+          "relaxations": 11,
+          "updated": 11
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 3,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 2,
+          "from": 4,
+          "to": 3
+        },
+        {
+          "w": 1,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 6,
+          "to": 5
+        },
+        {
+          "w": 1,
+          "from": 7,
+          "to": 6
+        },
+        {
+          "w": 3,
+          "from": 8,
+          "to": 7
+        },
+        {
+          "w": 2,
+          "from": 9,
+          "to": 8
+        },
+        {
+          "w": 1,
+          "from": 10,
+          "to": 9
+        },
+        {
+          "w": 3,
+          "from": 11,
+          "to": 10
+        },
+        {
+          "w": 2,
+          "from": 12,
+          "to": 11
+        },
+        {
+          "w": 2,
+          "from": 13,
+          "to": 12
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 13,
+        "path_components": [13],
+        "path_vertices": [6],
+        "dist": [
+          null,
+          null,
+          22,
+          19,
+          17,
+          16,
+          14,
+          13,
+          10,
+          8,
+          7,
+          4,
+          2,
+          0
+        ]
+      }
+    },
+    "n": 18
+  },
+  {
+    "weight_model": "edge",
+    "directed": true,
+    "name": "medium_18_dense",
+    "edges": [
+      {
+        "u": 0,
+        "v": 1,
+        "w": 1
+      },
+      {
+        "u": 0,
+        "v": 2,
+        "w": 2
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "w": 2
+      },
+      {
+        "u": 2,
+        "v": 4,
+        "w": 1
+      },
+      {
+        "u": 3,
+        "v": 5,
+        "w": 2
+      },
+      {
+        "u": 4,
+        "v": 6,
+        "w": 3
+      },
+      {
+        "u": 5,
+        "v": 7,
+        "w": 1
+      },
+      {
+        "u": 6,
+        "v": 8,
+        "w": 2
+      },
+      {
+        "u": 7,
+        "v": 9,
+        "w": 3
+      },
+      {
+        "u": 8,
+        "v": 10,
+        "w": 1
+      },
+      {
+        "u": 9,
+        "v": 11,
+        "w": 2
+      },
+      {
+        "u": 10,
+        "v": 12,
+        "w": 2
+      },
+      {
+        "u": 11,
+        "v": 13,
+        "w": 3
+      },
+      {
+        "u": 12,
+        "v": 14,
+        "w": 1
+      },
+      {
+        "u": 13,
+        "v": 15,
+        "w": 2
+      },
+      {
+        "u": 14,
+        "v": 16,
+        "w": 2
+      },
+      {
+        "u": 15,
+        "v": 17,
+        "w": 1
+      },
+      {
+        "u": 2,
+        "v": 6,
+        "w": 2
+      },
+      {
+        "u": 5,
+        "v": 9,
+        "w": 2
+      }
+    ],
+    "source": 0,
+    "results": {
+      "comp_of": [
+        17,
+        8,
+        16,
+        7,
+        15,
+        6,
+        14,
+        5,
+        13,
+        4,
+        12,
+        3,
+        11,
+        2,
+        10,
+        1,
+        9,
+        0
+      ],
+      "summary": {
+        "graph_type": "DAG",
+        "density": 0.06209150326797386,
+        "is_dag": true,
+        "m": 19,
+        "n": 18
+      },
+      "condensation_nodes": 18,
+      "longest_on_vertices": {
+        "path_vertices": [
+          0,
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17
+        ],
+        "dist": [
+          0,
+          1,
+          2,
+          3,
+          3,
+          5,
+          6,
+          6,
+          8,
+          9,
+          9,
+          11,
+          11,
+          14,
+          12,
+          16,
+          14,
+          17
+        ],
+        "max_distance": 17
+      },
+      "shortest_on_vertices": {
+        "path_vertices": [0],
+        "dist": [
+          0,
+          1,
+          2,
+          3,
+          3,
+          5,
+          4,
+          6,
+          6,
+          7,
+          7,
+          9,
+          9,
+          12,
+          10,
+          14,
+          12,
+          15
+        ]
+      },
+      "topo_order_vertices": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        8,
+        7,
+        10,
+        9,
+        12,
+        11,
+        14,
+        13,
+        16,
+        15,
+        17
+      ],
+      "longest_on_condensation": {
+        "source_component": 17,
+        "path_components": [
+          17,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "path_vertices": [
+          0,
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17
+        ],
+        "dist": [
+          17,
+          16,
+          14,
+          11,
+          9,
+          6,
+          5,
+          3,
+          1,
+          14,
+          12,
+          11,
+          9,
+          8,
+          6,
+          3,
+          2,
+          0
+        ],
+        "max_distance": 17
+      },
+      "topo_order_components": [
+        17,
+        16,
+        8,
+        15,
+        7,
+        14,
+        6,
+        13,
+        5,
+        12,
+        4,
+        11,
+        3,
+        10,
+        2,
+        9,
+        1,
+        0
+      ],
+      "sccs": [
+        [17],
+        [15],
+        [13],
+        [11],
+        [9],
+        [7],
+        [5],
+        [3],
+        [1],
+        [16],
+        [14],
+        [12],
+        [10],
+        [8],
+        [6],
+        [4],
+        [2],
+        [0]
+      ],
+      "scc_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "metrics": {
+        "scc": {
+          "time_ns": 20200,
+          "dfs_calls": 18,
+          "edges_scanned": 19
+        },
+        "toposort": {
+          "nodes": 18,
+          "pops": 18,
+          "time_ns": 12100,
+          "edges": 19
+        },
+        "dag_shortest": {
+          "time_ns": 6000,
+          "relaxations": 19,
+          "updated": 17
+        },
+        "dag_longest": {
+          "time_ns": 5600,
+          "relaxations": 19,
+          "updated": 19
+        }
+      },
+      "condensation_edges": [
+        {
+          "w": 1,
+          "from": 1,
+          "to": 0
+        },
+        {
+          "w": 2,
+          "from": 2,
+          "to": 1
+        },
+        {
+          "w": 3,
+          "from": 3,
+          "to": 2
+        },
+        {
+          "w": 2,
+          "from": 4,
+          "to": 3
+        },
+        {
+          "w": 3,
+          "from": 5,
+          "to": 4
+        },
+        {
+          "w": 2,
+          "from": 6,
+          "to": 4
+        },
+        {
+          "w": 1,
+          "from": 6,
+          "to": 5
+        },
+        {
+          "w": 2,
+          "from": 7,
+          "to": 6
+        },
+        {
+          "w": 2,
+          "from": 8,
+          "to": 7
+        },
+        {
+          "w": 2,
+          "from": 10,
+          "to": 9
+        },
+        {
+          "w": 1,
+          "from": 11,
+          "to": 10
+        },
+        {
+          "w": 2,
+          "from": 12,
+          "to": 11
+        },
+        {
+          "w": 1,
+          "from": 13,
+          "to": 12
+        },
+        {
+          "w": 2,
+          "from": 14,
+          "to": 13
+        },
+        {
+          "w": 3,
+          "from": 15,
+          "to": 14
+        },
+        {
+          "w": 2,
+          "from": 16,
+          "to": 14
+        },
+        {
+          "w": 1,
+          "from": 16,
+          "to": 15
+        },
+        {
+          "w": 2,
+          "from": 17,
+          "to": 16
+        },
+        {
+          "w": 1,
+          "from": 17,
+          "to": 8
+        }
+      ],
+      "shortest_on_condensation": {
+        "source_component": 17,
+        "path_components": [17],
+        "path_vertices": [0],
+        "dist": [
+          15,
+          14,
+          12,
+          9,
+          7,
+          6,
+          5,
+          3,
+          1,
+          12,
+          10,
+          9,
+          7,
+          6,
+          4,
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    "n": 18
+  }
+]}
