@@ -118,23 +118,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 34000,
+          "time_ns": 63800,
           "dfs_calls": 6,
           "edges_scanned": 3
         },
         "toposort": {
           "nodes": 6,
           "pops": 6,
-          "time_ns": 17900,
+          "time_ns": 33700,
           "edges": 3
         },
         "dag_shortest": {
-          "time_ns": 9800,
+          "time_ns": 12100,
           "relaxations": 1,
           "updated": 1
         },
         "dag_longest": {
-          "time_ns": 2500,
+          "time_ns": 2900,
           "relaxations": 1,
           "updated": 1
         }
@@ -288,23 +288,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 15700,
+          "time_ns": 11900,
           "dfs_calls": 6,
           "edges_scanned": 5
         },
         "toposort": {
           "nodes": 4,
           "pops": 4,
-          "time_ns": 4600,
+          "time_ns": 3500,
           "edges": 2
         },
         "dag_shortest": {
-          "time_ns": 1800,
+          "time_ns": 1500,
           "relaxations": 0,
           "updated": 0
         },
         "dag_longest": {
-          "time_ns": 1200,
+          "time_ns": 2400,
           "relaxations": 0,
           "updated": 0
         }
@@ -454,23 +454,23 @@
       "scc_sizes": [6],
       "metrics": {
         "scc": {
-          "time_ns": 10800,
+          "time_ns": 7900,
           "dfs_calls": 6,
           "edges_scanned": 9
         },
         "toposort": {
           "nodes": 1,
           "pops": 1,
-          "time_ns": 2600,
+          "time_ns": 1700,
           "edges": 0
         },
         "dag_shortest": {
-          "time_ns": 1400,
+          "time_ns": 1100,
           "relaxations": 0,
           "updated": 0
         },
         "dag_longest": {
-          "time_ns": 800,
+          "time_ns": 600,
           "relaxations": 0,
           "updated": 0
         }
@@ -636,23 +636,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 8100,
+          "time_ns": 123700,
           "dfs_calls": 8,
           "edges_scanned": 5
         },
         "toposort": {
           "nodes": 8,
           "pops": 8,
-          "time_ns": 13000,
+          "time_ns": 9600,
           "edges": 5
         },
         "dag_shortest": {
-          "time_ns": 10700,
+          "time_ns": 4300,
           "relaxations": 3,
           "updated": 3
         },
         "dag_longest": {
-          "time_ns": 2300,
+          "time_ns": 3200,
           "relaxations": 3,
           "updated": 3
         }
@@ -851,18 +851,18 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 17000,
+          "time_ns": 12300,
           "dfs_calls": 8,
           "edges_scanned": 6
         },
         "toposort": {
           "nodes": 6,
           "pops": 6,
-          "time_ns": 9500,
+          "time_ns": 14500,
           "edges": 3
         },
         "dag_shortest": {
-          "time_ns": 4000,
+          "time_ns": 6600,
           "relaxations": 2,
           "updated": 2
         },
@@ -1089,23 +1089,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 24300,
+          "time_ns": 15000,
           "dfs_calls": 8,
           "edges_scanned": 11
         },
         "toposort": {
           "nodes": 8,
           "pops": 8,
-          "time_ns": 131300,
+          "time_ns": 9200,
           "edges": 11
         },
         "dag_shortest": {
-          "time_ns": 14900,
+          "time_ns": 5100,
           "relaxations": 11,
           "updated": 7
         },
         "dag_longest": {
-          "time_ns": 5100,
+          "time_ns": 3900,
           "relaxations": 11,
           "updated": 10
         }
@@ -1349,23 +1349,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 31800,
+          "time_ns": 26800,
           "dfs_calls": 10,
           "edges_scanned": 5
         },
         "toposort": {
           "nodes": 10,
           "pops": 10,
-          "time_ns": 13200,
+          "time_ns": 6700,
           "edges": 5
         },
         "dag_shortest": {
-          "time_ns": 4400,
+          "time_ns": 3000,
           "relaxations": 2,
           "updated": 2
         },
         "dag_longest": {
-          "time_ns": 3200,
+          "time_ns": 2000,
           "relaxations": 2,
           "updated": 2
         }
@@ -1581,23 +1581,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 16400,
+          "time_ns": 14300,
           "dfs_calls": 10,
           "edges_scanned": 9
         },
         "toposort": {
           "nodes": 6,
           "pops": 6,
-          "time_ns": 28500,
+          "time_ns": 4200,
           "edges": 3
         },
         "dag_shortest": {
-          "time_ns": 3300,
+          "time_ns": 1800,
           "relaxations": 0,
           "updated": 0
         },
         "dag_longest": {
-          "time_ns": 1900,
+          "time_ns": 1400,
           "relaxations": 0,
           "updated": 0
         }
@@ -1832,23 +1832,23 @@
       ],
       "metrics": {
         "scc": {
-          "time_ns": 17000,
+          "time_ns": 13100,
           "dfs_calls": 10,
           "edges_scanned": 11
         },
         "toposort": {
           "nodes": 10,
           "pops": 10,
-          "time_ns": 19500,
+          "time_ns": 7200,
           "edges": 11
         },
         "dag_shortest": {
-          "time_ns": 4700,
+          "time_ns": 4000,
           "relaxations": 11,
           "updated": 9
         },
         "dag_longest": {
-          "time_ns": 3700,
+          "time_ns": 3000,
           "relaxations": 11,
           "updated": 10
         }
